@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfermActivity"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_180sdp"
+        android:text="Create a new password and please never share           it with anyone for safe use"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_centerInParent="true"
+        android:layout_width="300dp"
+        android:layout_height="220dp"
+        android:id="@+id/card"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="viewStart"
+        android:background="#fefefe"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="50dp">
+        <LinearLayout
+            android:background="@drawable/back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:paddingLeft="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:background="@drawable/corner_edittext"
+                android:hint="New Password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textColorHint="@color/black"
+                android:textStyle="normal" />
+
+
+            <EditText
+                android:id="@+id/btn_password"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/corner_edittext"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:hint="Confirm new Password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textStyle="normal" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:onClick="PassChange"
+                android:text="Update Password"
+                android:textSize="13dp"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_radius"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

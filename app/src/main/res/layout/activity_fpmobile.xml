@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FPMobileActivity"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_180sdp"
+        android:text="Your number will safe with us. We won't Share                   your details with anyone."
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_centerInParent="true"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:id="@+id/card"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="viewStart"
+        android:background="#fefefe"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="50dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="30dp"
+                android:text="Enter your Email or Mobile Number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/fpedittext"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="18dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/corner_edittext"
+                android:layout_gravity="center"
+                android:hint="Email or mobile number"
+                android:inputType="textEmailAddress"
+                android:autofillHints="emailAddress"
+                android:textColor="@color/black"
+                android:maxLines="1"
+                android:textColorHint="@color/black"
+                android:textStyle="normal" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:onClick="next"
+                android:text="Next"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_radius"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

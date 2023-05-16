@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="150dp"
+        android:layout_height="270dp"
+        app:cardBackgroundColor="#101010"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="270dp">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="White Kurta"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/pprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:text="499"
+                android:textColor="#27DF08"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/defprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name"
+                android:layout_marginLeft="@dimen/_59sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:text="399"
+                android:textColor="#ED0303"
+                android:textSize="@dimen/_12sdp" />
+
+            <View
+                android:id="@+id/linedefprice"
+                android:layout_width="@dimen/_32sdp"
+                android:layout_height="@dimen/_2sdp"
+                android:layout_below="@id/name"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_56sdp"
+                android:layout_marginTop="@dimen/_14sdp"
+                android:background="#ED0303" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

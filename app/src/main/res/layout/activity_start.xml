@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.raysapp.quantom.StartActivity"
+    android:background="@drawable/splash">
+
+    <TextView
+        android:id="@+id/logoname"
+        android:fontFamily="@font/luxery"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_120sdp"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/_45sdp"
+        android:text="Q U A N T O M"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:onClick="signin"
+        android:elevation="@dimen/_10sdp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16sdp"
+        android:id="@+id/signin"
+        android:text="SIGN IN"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_120sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:layout_below="@id/logoname"
+        android:background="@drawable/bg_button"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signup"
+        android:onClick="signup"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:layout_alignParentRight="true"
+        android:elevation="@dimen/_10sdp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16sdp"
+        android:text="SIGN UP"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_120sdp"
+        android:layout_below="@id/logoname"
+        android:background="@drawable/bg_button"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/geust"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_below="@id/signin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_60sdp"
+
+        android:background="@drawable/bg_button"
+        android:elevation="@dimen/_10sdp"
+        android:onClick="guest"
+        android:text="CONTINUE AS GUEST"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16sdp" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1485" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/back.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/background_profile.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/bg_background_button.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/bg_background_product.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/bg_bottom_nav.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/bg_button.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/bg_buynow.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/bg_buynowcard.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/bg_conferm_button.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/bg_customize.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/bg_profile.xml" value="0.133" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/bg_size_option.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/btn_radius.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/corner_edittext.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/ic_actual_rupee.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/ic_add.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/ic_add_to_cart.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/ic_back.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/ic_backword.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/ic_category.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/ic_green_rupee.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/ic_indian_rupee.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1485" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/ic_menu_add_to_cart.xml" value="0.133" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/ic_menu_category.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/ic_menu_home.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/ic_menu_person.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/ic_minus.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/ic_person_add.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/main_background.xml" value="0.1355" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/drawable/side_nav_bar.xml" value="0.164" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/font/font.xml" value="0.234375" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout-v28/activity_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_address.xml" value="0.22" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_addtocart.xml" value="0.22" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_blezer.xml" value="0.1675213675213675" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_blezer2.xml" value="0.17192982456140352" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_business_suit.xml" value="0.17192982456140352" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_bussiness_suit.xml" value="0.1675213675213675" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_buy_now.xml" value="0.12894736842105264" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_conferm.xml" value="0.2" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_customize.xml" value="0.17192982456140352" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_description.xml" value="0.2" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_description_product.xml" value="0.16" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_details.xml" value="0.2" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_fpmobile.xml" value="0.25" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_home_page.xml" value="0.2" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_jacket.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_kurta.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_men_block.xml" value="0.25" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_otpactivity.xml" value="0.2" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_payment.xml" value="0.18" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_pdescription.xml" value="0.22" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_place_order.xml" value="0.25" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_popup.xml" value="0.17192982456140352" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_product.xml" value="0.1410071942446043" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_registration.xml" value="0.25" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_shirt.xml" value="0.1696969696969697" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_shoes.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_start.xml" value="0.16" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_suit.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_trouser.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/activity_women_block.xml" value="0.20416666666666666" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/app_bar_home_page.xml" value="0.16" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/app_bar_men_page.xml" value="0.17192982456140352" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/content_home_page.xml" value="0.18" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/fragment_addtocart.xml" value="0.13" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/fragment_category.xml" value="0.12894736842105264" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/fragment_home.xml" value="0.18" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/fragment_mycart.xml" value="0.17192982456140352" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/layout_addtocart.xml" value="0.1675213675213675" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/layout_description.xml" value="0.2696011004126547" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/layout_practice.xml" value="0.17192982456140352" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/layout_product.xml" value="0.22" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/layout_product_resourse.xml" value="0.22" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/layout_slideview.xml" value="0.23114035087719298" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/nav_header_home_page.xml" value="0.25" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/nav_main_activity.xml" value="0.17192982456140352" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/nav_men_activity.xml" value="0.16842105263157894" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/layout/nav_mens_activity.xml" value="0.17192982456140352" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/menu/home_page.xml" value="0.12894736842105264" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1485" />
+        <entry key="..\:/ANDROID/Quantom/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1485" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

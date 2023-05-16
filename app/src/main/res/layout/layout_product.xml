@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginStart="30dp"
+        android:layout_width="150dp"
+        android:layout_height="270dp"
+        app:cardBackgroundColor="#101010"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="270dp">
+
+            <ImageView
+                android:id="@+id/product_image"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/todo" />
+
+            <TextView
+                android:id="@+id/product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/product_image"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/white_kurta1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_marginStart="@dimen/_9sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_below="@id/product_name"
+                android:src="@drawable/ic_actual_rupee"
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:contentDescription="@string/todo" />
+
+            <TextView
+                android:id="@+id/product_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/product_name"
+                android:layout_marginStart="@dimen/_26sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:text="@string/_499"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:layout_below="@id/product_name"
+                android:layout_marginStart="@dimen/_60sdp"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:src="@drawable/ic_indian_rupee"
+                android:contentDescription="@string/todo" />
+
+            <TextView
+                android:id="@+id/default_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/product_name"
+                android:layout_marginStart="@dimen/_75sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:text="@string/_3991"
+                android:textColor="#918F8F"
+                android:textSize="@dimen/_12sdp" />
+
+            <View
+                android:id="@+id/linedefprice"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_2sdp"
+                android:layout_below="@id/product_name"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_68sdp"
+                android:layout_marginTop="@dimen/_14sdp"
+                android:background="#918F8F" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

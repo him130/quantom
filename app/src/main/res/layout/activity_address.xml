@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddressActivity"
+    android:background="@color/black">
+
+
+    <ScrollView
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/search"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:fontFamily="@font/hamlet_cicero_12"
+                android:text="PLEASE SELECT ADDRESS"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp" />
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="@dimen/_16sdp"
+                app:cardCornerRadius="@dimen/_16sdp"
+                app:cardBackgroundColor="#1E1B1B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_marginLeft="@dimen/_16sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_30sdp"
+                        android:text="Full Name"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_13sdp" />
+
+                    <EditText
+                        android:id="@+id/ename"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_22sdp"
+                        android:hint="Enter your name"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:layout_marginLeft="@dimen/_16sdp"
+                        android:paddingLeft="@dimen/_12sdp"
+                        android:textColor="@color/white"
+                        android:textColorHint="#2B2C2C"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_marginLeft="@dimen/_16sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_16sdp"
+                        android:text="Mobile Number"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_13sdp" />
+
+                    <EditText
+                        android:layout_marginLeft="@dimen/_16sdp"
+                        android:paddingLeft="@dimen/_12sdp"
+                        android:id="@+id/emobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_marginRight="@dimen/_22sdp"
+                        android:hint="Mobile number"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:textColor="@color/white"
+                        android:textColorHint="#2B2C2C"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_marginLeft="@dimen/_16sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_16sdp"
+                        android:text="Flat, House No., Building, Company"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_13sdp" />
+
+                    <EditText
+                        android:id="@+id/eflat"
+                        android:layout_marginLeft="@dimen/_16sdp"
+                        android:paddingLeft="@dimen/_12sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_marginRight="@dimen/_22sdp"
+                        android:hint="flat no."
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:textColor="@color/white"
+                        android:textColorHint="#2B2C2C"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_marginLeft="@dimen/_16sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_16sdp"
+                        android:text="Area, Streat, Sector, Village"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_13sdp" />
+
+                    <EditText
+                        android:id="@+id/earea"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_marginRight="@dimen/_22sdp"
+                        android:hint="area"
+                        android:inputType="textPassword"
+                        android:layout_marginLeft="@dimen/_16sdp"
+                        android:paddingLeft="@dimen/_12sdp"
+                        android:maxLines="1"
+                        android:textColor="@color/white"
+                        android:textColorHint="#2B2C2C"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_marginLeft="@dimen/_16sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_16sdp"
+                        android:text="Town/City"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_13sdp" />
+
+                    <EditText
+                        android:id="@+id/etown"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_marginRight="@dimen/_22sdp"
+                        android:hint="town/city"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:layout_marginLeft="@dimen/_16sdp"
+                        android:paddingLeft="@dimen/_12sdp"
+                        android:textColor="@color/white"
+                        android:textColorHint="#2B2C2C"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_marginLeft="@dimen/_16sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_16sdp"
+                        android:text="Pincode"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_13sdp" />
+
+                    <EditText
+                        android:id="@+id/epincode"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_marginRight="@dimen/_22sdp"
+                        android:hint="6 digits of code"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:layout_marginLeft="@dimen/_16sdp"
+                        android:paddingLeft="@dimen/_12sdp"
+                        android:textColor="@color/white"
+                        android:textColorHint="#2B2C2C"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_marginLeft="@dimen/_16sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_16sdp"
+                        android:text="State"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_13sdp" />
+
+                    <EditText
+                        android:layout_marginLeft="@dimen/_16sdp"
+                        android:paddingLeft="@dimen/_12sdp"
+                        android:id="@+id/estate"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_marginRight="@dimen/_22sdp"
+                        android:layout_marginBottom="@dimen/_16sdp"
+                        android:hint="Your state"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:textColor="@color/white"
+                        android:textColorHint="#2B2C2C"
+                        android:textStyle="normal" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:onClick="address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_22sdp"
+                android:background="@drawable/bg_background_button"
+                android:text="Use this address"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
